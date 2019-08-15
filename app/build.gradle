@@ -27,5 +27,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
 //    implementation project(path: ':tinyutils')
-    implementation 'com.tinytongtong:tinyutils:0.0.3'
+    implementation 'com.tinytongtong:tinyutils:0.0.5'
 }

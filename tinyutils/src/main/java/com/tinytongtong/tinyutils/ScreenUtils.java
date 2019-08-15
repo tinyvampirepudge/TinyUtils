@@ -96,6 +96,8 @@ public class ScreenUtils {
         float density = displayMetrics.density;
         int densityDpi = displayMetrics.densityDpi;
         float scaledDensity = displayMetrics.scaledDensity;
+        float xdpi = displayMetrics.xdpi;
+        float ydpi = displayMetrics.ydpi;
         // 屏幕尺寸，单位inch
         double screenSize = Math.sqrt((Math.pow(heightPixels, 2) + Math.pow(widthPixels, 2))) / densityDpi;
 
@@ -110,6 +112,11 @@ public class ScreenUtils {
         sb.append(String.format(Locale.getDefault(), "scaledDensity: %.2fpx", scaledDensity));
         sb.append("\n");
         sb.append(String.format(Locale.getDefault(), "screenSize(计算得出的): %.2finch", screenSize));
+        sb.append("\n");
+        sb.append(String.format(Locale.getDefault(), "xdpi: %.2fpx", xdpi));
+        sb.append("\n");
+        sb.append(String.format(Locale.getDefault(), "ydpi: %.2fpx", ydpi));
+        sb.append("\n");
 
         return sb.toString();
     }
