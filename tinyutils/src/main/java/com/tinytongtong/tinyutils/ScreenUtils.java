@@ -105,17 +105,17 @@ public class ScreenUtils {
         sb.append("\n");
         sb.append(String.format(Locale.getDefault(), "widthPixels: %.2fpx", widthPixels));
         sb.append("\n");
-        sb.append(String.format(Locale.getDefault(), "density: %.2fpx", density));
+        sb.append(String.format(Locale.getDefault(), "density: %.2f", density));
         sb.append("\n");
-        sb.append(String.format(Locale.getDefault(), "densityDpi: %dpx", densityDpi));
+        sb.append(String.format(Locale.getDefault(), "densityDpi: %d", densityDpi));
         sb.append("\n");
-        sb.append(String.format(Locale.getDefault(), "scaledDensity: %.2fpx", scaledDensity));
+        sb.append(String.format(Locale.getDefault(), "scaledDensity: %.2f", scaledDensity));
         sb.append("\n");
         sb.append(String.format(Locale.getDefault(), "screenSize(计算得出的): %.2finch", screenSize));
         sb.append("\n");
-        sb.append(String.format(Locale.getDefault(), "xdpi: %.2fpx", xdpi));
+        sb.append(String.format(Locale.getDefault(), "xdpi: %.2f", xdpi));
         sb.append("\n");
-        sb.append(String.format(Locale.getDefault(), "ydpi: %.2fpx", ydpi));
+        sb.append(String.format(Locale.getDefault(), "ydpi: %.2f", ydpi));
         sb.append("\n");
 
         return sb.toString();
